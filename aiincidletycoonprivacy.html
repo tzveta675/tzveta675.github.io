@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy Policy for AI Inc: Idle Tycoon, including local saves, Google advertising and privacy choices.">
+    <meta name="description" content="Privacy Policy for AI Inc: Idle Tycoon, including local saves, optional Firebase Analytics, Google advertising and privacy choices.">
     <title>Privacy Policy - AI Inc: Idle Tycoon</title>
     <style>
         * { box-sizing: border-box; }
@@ -55,10 +55,9 @@
 <main>
     <header>
         <h1>Privacy Policy for AI Inc: Idle Tycoon</h1>
-        <!-- CONFIRM BEFORE PUBLICATION: publication dates and developer's legal identity/country. -->
         <p class="dates">
             <strong>Effective Date:</strong> 10 October 2026<br>
-            <strong>Last Updated:</strong> 10 October 2026
+            <strong>Last Updated:</strong> October 12, 2026
         </p>
     </header>
 
@@ -66,13 +65,13 @@
         <h2>1. About This Policy</h2>
         <p>
             This policy explains how information is handled in the Android
-            version of AI Inc: Idle Tycoon. In this policy, “we” refers to
+            version of AI Inc: Idle Tycoon, including version 1.1.0. In this policy, “we” refers to
             the game's developer, who can be contacted at
             <a href="mailto:tzveta675@gmail.com">tzveta675@gmail.com</a>.
         </p>
         <p>
             The game stores progress on your device and integrates Google's
-            advertising and consent services. The current version does not
+            advertising and consent services, as well as optional Firebase Analytics. The current version does not
             provide player accounts or a developer-operated cloud-save service.
             This policy is an explanation of data handling; it does not replace
             the separate privacy choices presented through the consent system.
@@ -131,13 +130,65 @@
         </p>
         <p>
             AdMob's own measurement and diagnostic functions are part of the
-            advertising integration. The current game does not integrate
-            separate Firebase Analytics, GameAnalytics or Unity Ads services.
+            advertising integration and are separate from optional Firebase
+            Analytics. Turning off Firebase Analytics does not turn off AdMob's
+            measurement or diagnostic processing. The game does not integrate
+            GameAnalytics or Unity Ads services.
         </p>
     </section>
 
     <section>
-        <h2>4. Consent and Privacy Options</h2>
+        <h2>4. Optional Firebase Analytics</h2>
+        <p>AI Inc: Idle Tycoon uses Google Analytics for Firebase to understand
+            how players use the game and to improve gameplay, balance and the
+            player experience. This analytics collection is optional and requires
+            your explicit opt-in consent. You can decline and continue playing.</p>
+        <h3>Information collected when enabled</h3>
+        <p>Analytics may include:</p>
+        <ul>
+            <li>Game sessions and gameplay duration.</li>
+            <li>Business unlocks, upgrades and progression.</li>
+            <li>Funding or prestige activity.</li>
+            <li>Rewarded-ad interactions, reward outcomes and related gameplay events.</li>
+            <li>App and device information, such as app version, device model and
+                operating system; approximate location derived from network
+                information; and pseudonymous identifiers such as an app-instance ID.</li>
+        </ul>
+        <p>We do not intentionally include player names, email addresses or
+            other directly identifying personal information in our custom
+            gameplay analytics events. Pseudonymous identifiers and associated
+            usage information may still be personal information.</p>
+        <h3>Defaults and withdrawal</h3>
+        <p>On a fresh installation, Firebase Analytics is disabled and its
+            consent settings for analytics storage, advertising storage,
+            advertising user data and advertising personalization default to
+            denied. Firebase Analytics is not initialized while your analytics
+            choice is unknown or has been declined.</p>
+        <p>If you opt in, the game grants analytics-storage consent before
+            enabling collection. Firebase's advertising-storage,
+            advertising-user-data and advertising-personalization consent
+            settings remain denied. These Firebase settings do not determine
+            your separate AdMob advertising choices.</p>
+        <p>You can withdraw analytics consent through the game's privacy
+            settings. The game immediately stops sending new gameplay analytics
+            events, disables Firebase Analytics collection, changes its consent
+            settings to denied, and resets Analytics data stored locally on
+            your device, including the app-instance identifier. Your choice is
+            saved and restored before Firebase Analytics initialization on later
+            launches.</p>
+        <p>Withdrawal and the local reset do not automatically delete data
+            already transmitted to Google. Previously collected information
+            remains subject to the retention rules and deletion options
+            described below.</p>
+    </section>
+
+    <section>
+        <h2>5. Independent Analytics and Advertising Choices</h2>
+        <p>Analytics consent and advertising privacy choices are independent.
+            Accepting or declining analytics does not grant or withdraw
+            advertising consent. Changing your advertising choices does not
+            enable optional Firebase Analytics. To change both, use each
+            service's privacy controls.</p>
         <p>
             At startup, the game requests updated consent information through
             UMP and presents a privacy form when required. UMP handles the
@@ -165,13 +216,13 @@
         </p>
         <p>
             Accepting the game's Terms or reading this policy is not consent
-            to personalized advertising. Where a consent choice is required,
-            it is handled separately through the privacy form.
+            to Firebase Analytics or personalized advertising. Analytics opt-in
+            and any required advertising consent are handled separately.
         </p>
     </section>
 
     <section>
-        <h2>5. Information You Send to Us</h2>
+        <h2>6. Information You Send to Us</h2>
         <p>
             If you email us, we receive your email address and the information
             you include, such as your name, message, screenshots or diagnostic
@@ -179,8 +230,6 @@
             investigate the issue you report. Please avoid sending passwords
             or other information that is unnecessary for your request.
         </p>
-        <!-- CONFIRM BEFORE PUBLICATION: state the actual support-email retention period
-             or criteria, and any applicable legal basis, here. -->
         <p>
             Contact us for information about how long support correspondence
             is retained or to request deletion of correspondence containing
@@ -189,10 +238,10 @@
     </section>
 
     <section>
-        <h2>6. Third-Party Privacy Information</h2>
+        <h2>7. Third-Party Privacy Information</h2>
         <p>
             Google processes information through its advertising and consent
-            services. Advertiser websites or apps that you visit after
+            services and, if you opt in, Firebase Analytics. Advertiser websites or apps that you visit after
             interacting with an ad have their own privacy practices.
         </p>
         <ul>
@@ -207,7 +256,7 @@
                 </a>
             </li>
             <li>
-                <a href="https://developers.google.com/admob/android/next-gen/privacy/play-data-disclosure">
+                <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">
                     Google Mobile Ads SDK data disclosures
                 </a>
             </li>
@@ -216,6 +265,10 @@
                     Google User Messaging Platform information
                 </a>
             </li>
+        </ul>
+        <ul>
+            <li><a href="https://firebase.google.com/support/privacy">Firebase privacy and security information</a></li>
+            <li><a href="https://support.google.com/analytics/answer/7667196">Google Analytics data retention information</a></li>
         </ul>
         <p>
             These policy pages are hosted on GitHub Pages. Visiting them
@@ -229,7 +282,19 @@
     </section>
 
     <section>
-        <h2>7. Retention, Storage and Security</h2>
+        <h2>8. Retention, Storage and Security</h2>
+        <p>The Google Analytics event-data retention setting for this game is
+            <strong>2 months</strong>. This setting governs event data subject
+            to Google's retention controls, including data used in explorations
+            and funnel reports. Google deletes expired data on a monthly cycle;
+            this is not a promise that every copy is deleted exactly two months
+            after collection. Standard aggregated reports are not affected by
+            this setting and may remain available longer. User-level data is
+            subject to Google's applicable retention settings and policies.</p>
+        <p>AdMob and UMP data, including advertising measurement, consent
+            information and SDK diagnostics, have separate handling and
+            retention rules under Google's policies. The Firebase event-data
+            setting does not set their retention periods.</p>
         <p>
             Gameplay saves are stored locally as described above. Google
             handles retention and deletion of information processed through
@@ -238,7 +303,7 @@
             delete information already held by Google or an advertiser.
         </p>
         <p>
-            Google may process advertising information in countries other
+            Google may process advertising and analytics information in countries other
             than your own. Google's policy explains its international data
             handling. The game does not provide a developer-operated
             international cloud-save service.
@@ -251,7 +316,7 @@
     </section>
 
     <section>
-        <h2>8. Your Privacy Rights</h2>
+        <h2>9. Your Privacy Rights</h2>
         <p>
             Depending on your location and applicable law, you may have rights
             to access, correct or delete personal information, restrict or
@@ -266,14 +331,15 @@
             For information processed by Google, its privacy policy provides
             relevant controls and request options. Use Settings &gt; Privacy
             Options when available to change advertising privacy choices.
+            Use the game's analytics privacy setting to withdraw Firebase
+            Analytics consent. You may also contact us with analytics-related
+            privacy requests; the information available to identify a record
+            may affect whether a request can be fulfilled.
         </p>
     </section>
 
     <section>
-        <h2>9. Children and Age Requirements</h2>
-        <!-- CONFIRM BEFORE PUBLICATION: retain 13+ only if it matches the intended
-             audience, store declarations and advertising configuration.
-             This statement alone does not establish children's-privacy compliance. -->
+        <h2>10. Children and Age Requirements</h2>
         <p>
             The game is intended for users aged 13 and above, consistent with
             its Terms &amp; Conditions. It is not intended for children under
@@ -284,12 +350,12 @@
     </section>
 
     <section>
-        <h2>10. Changes to This Policy</h2>
+        <h2>11. Changes to This Policy</h2>
         <p>
             This policy may be updated to reflect changes to the game or its
             data handling. The date at the top identifies the latest revision.
-            Advertising consent, when required, remains a separate choice
-            handled through the privacy system.
+            Optional analytics consent and advertising consent, when required,
+            remain separate choices handled through the privacy system.
         </p>
     </section>
 
